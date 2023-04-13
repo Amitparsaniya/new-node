@@ -4,13 +4,7 @@ const EmailVerificationtoken = require("../models/emailverificationtoken");
 const { isValidObjectId } = require("mongoose");
 const { generateOtp, generateMailtranspoter, generateRandomBytes } = require("../utils/mail");
 const passwordresettoken = require("../models/passwordresettoken");
-// ---------------------------------------------------------------
-const User = require("../models/users");
-const jwt = require("jsonwebtoken")
-const EmailVerificationtoken = require("../models/emailverificationtoken");
-const { isValidObjectId } = require("mongoose");
-const { generateOtp, generateMailtranspoter, generateRandomBytes } = require("../utils/mail");
-const passwordresettoken = require("../models/passwordresettoken");
+
 
 
 exports.create = async (req, res) => {
