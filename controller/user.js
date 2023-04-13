@@ -5,6 +5,9 @@ const { isValidObjectId } = require("mongoose");
 const { generateOtp, generateMailtranspoter, generateRandomBytes } = require("../utils/mail");
 const passwordresettoken = require("../models/passwordresettoken");
 
+const passwordresettoken = require("../models/passwordresettoken");
+
+
 
 
 exports.create = async (req, res) => {
