@@ -6,7 +6,7 @@ const { generateOtp, generateMailtranspoter, generateRandomBytes } = require("..
 const passwordresettoken = require("../models/passwordresettoken");
 
 const passwordresettoken = require("../models/passwordresettoken");
-const dta = require("../models/passwordresettoken");
+const data = require("../models/passwordresettoken");
 
 
 
